@@ -1,3 +1,5 @@
+This fork is really just for changes required locally, currently just adding build configurations to fit in better with a private project. I recommend that you use the upstream original project for your own forks.
+
 ## CocoaMarkdown
 #### Markdown parsing and rendering for iOS and OS X
 
