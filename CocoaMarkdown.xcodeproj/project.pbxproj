@@ -984,6 +984,7 @@
 					};
 					729F53E41A68641400CC7448 = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0820;
 					};
 					729F53FA1A68649200CC7448 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -1540,6 +1541,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CocoaMarkdownTests/CocoaMarkdownTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/External/cmark/src";
 			};
 			name = Debug;
@@ -1562,6 +1564,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indragie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CocoaMarkdownTests/CocoaMarkdownTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/External/cmark/src";
 			};
 			name = Release;
@@ -1828,6 +1831,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indragie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CocoaMarkdownTests/CocoaMarkdownTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/External/cmark/src";
 			};
 			name = Profile;
@@ -1997,6 +2001,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indragie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CocoaMarkdownTests/CocoaMarkdownTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/External/cmark/src";
 			};
 			name = "Enterprise Distribution";
