@@ -274,6 +274,27 @@
 			remoteGlobalIDString = 729F53D91A68641400CC7448;
 			remoteInfo = "CocoaMarkdown-iOS";
 		};
+		BE1AA2F21F7EB346007C64BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64076CF51D6D7C2000E2B499;
+			remoteInfo = "QuickAfterSuite - macOSTests";
+		};
+		BE1AA2F41F7EB346007C64BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64076D081D6D7CD600E2B499;
+			remoteInfo = "QuickAfterSuite - iOSTests";
+		};
+		BE1AA2F61F7EB346007C64BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64076D1A1D6D7CEA00E2B499;
+			remoteInfo = "QuickAfterSuite - tvOSTests";
+		};
 		BE1B21C21DAE4DB700573EF5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 729F54891A68663300CC7448 /* Nimble.xcodeproj */;
@@ -673,10 +694,10 @@
 		729F548A1A68663300CC7448 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				729F54941A68663400CC7448 /* Nimble.framework */,
-				729F54961A68663400CC7448 /* NimbleTests.xctest */,
 				729F54981A68663400CC7448 /* Nimble.framework */,
 				729F549A1A68663400CC7448 /* NimbleTests.xctest */,
+				729F54941A68663400CC7448 /* Nimble.framework */,
+				729F54961A68663400CC7448 /* NimbleTests.xctest */,
 				BE1B21C31DAE4DB700573EF5 /* Nimble.framework */,
 				BE1B21C51DAE4DB700573EF5 /* NimbleTests.xctest */,
 			);
@@ -687,14 +708,17 @@
 			isa = PBXGroup;
 			children = (
 				729F54A21A68663400CC7448 /* Quick.framework */,
-				729F54A41A68663400CC7448 /* Quick-OSXTests.xctest */,
-				729F54A61A68663400CC7448 /* QuickFocused-OSXTests.xctest */,
+				729F54A41A68663400CC7448 /* Quick - macOSTests.xctest */,
+				729F54A61A68663400CC7448 /* QuickFocused - macOSTests.xctest */,
+				BE1AA2F31F7EB346007C64BB /* QuickAfterSuite - macOSTests.xctest */,
 				729F54A81A68663400CC7448 /* Quick.framework */,
-				729F54AA1A68663400CC7448 /* Quick-iOSTests.xctest */,
-				729F54AC1A68663400CC7448 /* QuickFocused-iOSTests.xctest */,
+				729F54AA1A68663400CC7448 /* Quick - iOSTests.xctest */,
+				729F54AC1A68663400CC7448 /* QuickFocused - iOSTests.xctest */,
+				BE1AA2F51F7EB346007C64BB /* QuickAfterSuite - iOSTests.xctest */,
 				BE1B21D01DAE4DB700573EF5 /* Quick.framework */,
-				BE1B21D21DAE4DB700573EF5 /* Quick-tvOSTests.xctest */,
-				BE1B21D41DAE4DB700573EF5 /* QuickFocused-tvOSTests.xctest */,
+				BE1B21D21DAE4DB700573EF5 /* Quick - tvOSTests.xctest */,
+				BE1B21D41DAE4DB700573EF5 /* QuickFocused - tvOSTests.xctest */,
+				BE1AA2F71F7EB346007C64BB /* QuickAfterSuite - tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -976,7 +1000,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Indragie Karunaratne";
 				TargetAttributes = {
 					729F53D91A68641400CC7448 = {
@@ -1069,17 +1093,17 @@
 			remoteRef = 729F54A11A68663400CC7448 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		729F54A41A68663400CC7448 /* Quick-OSXTests.xctest */ = {
+		729F54A41A68663400CC7448 /* Quick - macOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "Quick-OSXTests.xctest";
+			path = "Quick - macOSTests.xctest";
 			remoteRef = 729F54A31A68663400CC7448 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		729F54A61A68663400CC7448 /* QuickFocused-OSXTests.xctest */ = {
+		729F54A61A68663400CC7448 /* QuickFocused - macOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "QuickFocused-OSXTests.xctest";
+			path = "QuickFocused - macOSTests.xctest";
 			remoteRef = 729F54A51A68663400CC7448 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -1090,18 +1114,39 @@
 			remoteRef = 729F54A71A68663400CC7448 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		729F54AA1A68663400CC7448 /* Quick-iOSTests.xctest */ = {
+		729F54AA1A68663400CC7448 /* Quick - iOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "Quick-iOSTests.xctest";
+			path = "Quick - iOSTests.xctest";
 			remoteRef = 729F54A91A68663400CC7448 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		729F54AC1A68663400CC7448 /* QuickFocused-iOSTests.xctest */ = {
+		729F54AC1A68663400CC7448 /* QuickFocused - iOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "QuickFocused-iOSTests.xctest";
+			path = "QuickFocused - iOSTests.xctest";
 			remoteRef = 729F54AB1A68663400CC7448 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE1AA2F31F7EB346007C64BB /* QuickAfterSuite - macOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "QuickAfterSuite - macOSTests.xctest";
+			remoteRef = BE1AA2F21F7EB346007C64BB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE1AA2F51F7EB346007C64BB /* QuickAfterSuite - iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "QuickAfterSuite - iOSTests.xctest";
+			remoteRef = BE1AA2F41F7EB346007C64BB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE1AA2F71F7EB346007C64BB /* QuickAfterSuite - tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "QuickAfterSuite - tvOSTests.xctest";
+			remoteRef = BE1AA2F61F7EB346007C64BB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		BE1B21C31DAE4DB700573EF5 /* Nimble.framework */ = {
@@ -1125,17 +1170,17 @@
 			remoteRef = BE1B21CF1DAE4DB700573EF5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BE1B21D21DAE4DB700573EF5 /* Quick-tvOSTests.xctest */ = {
+		BE1B21D21DAE4DB700573EF5 /* Quick - tvOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "Quick-tvOSTests.xctest";
+			path = "Quick - tvOSTests.xctest";
 			remoteRef = BE1B21D11DAE4DB700573EF5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BE1B21D41DAE4DB700573EF5 /* QuickFocused-tvOSTests.xctest */ = {
+		BE1B21D41DAE4DB700573EF5 /* QuickFocused - tvOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "QuickFocused-tvOSTests.xctest";
+			path = "QuickFocused - tvOSTests.xctest";
 			remoteRef = BE1B21D31DAE4DB700573EF5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -1463,6 +1508,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1473,6 +1519,7 @@
 		729F53F11A68641400CC7448 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1497,6 +1544,7 @@
 		729F53F21A68641400CC7448 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1792,6 +1840,7 @@
 		BE1B21B61DAE4DB700573EF5 /* Profile */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1962,6 +2011,7 @@
 		CB0B09C31DB128A600C8A34A /* Enterprise Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
