@@ -1537,7 +1537,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indragie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CocoaMarkdown;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/External/cmark/src";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/External/cmark/src $(SRCROOT)/External/cmarkGeneratedSourceFiles";
 			};
 			name = Debug;
 		};
@@ -1562,7 +1562,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indragie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CocoaMarkdown;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/External/cmark/src";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/External/cmark/src $(SRCROOT)/External/cmarkGeneratedSourceFiles";
 			};
 			name = Release;
 		};
@@ -1858,7 +1858,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indragie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CocoaMarkdown;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/External/cmark/src";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/External/cmark/src $(SRCROOT)/External/cmarkGeneratedSourceFiles";
 			};
 			name = Profile;
 		};
@@ -2029,7 +2029,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indragie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CocoaMarkdown;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/External/cmark/src";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/External/cmark/src $(SRCROOT)/External/cmarkGeneratedSourceFiles";
 			};
 			name = "Enterprise Distribution";
 		};
